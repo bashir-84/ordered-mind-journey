@@ -18,3 +18,6 @@
 @media(max-width:639px){.story-main .surface{height:calc(100dvh - 190px);padding:16px}.story-main .reading-text{font-size:18px;line-height:1.85}.story-main .eyebrow{font-size:13px;margin-bottom:12px}.story-main .speaker{margin-bottom:10px}.home-surface h1{font-size:28px}.home-icons .hero-art{max-height:38dvh}.story-main .section-head{margin-bottom:10px}}
 @media(max-height:520px){.story-main .surface{height:auto;min-height:180px}.story-main .reading-text{font-size:16px;line-height:1.6}}
 body:has(.story-main) .layout{padding-bottom:90px}.story-main .surface{height:calc(100dvh - 270px)}@media(max-width:639px){.story-main .surface{height:calc(100dvh - 210px)}}
+
+/* Placed tasks stay selectable for moving, with a neutral card. */
+.p49-task.placed{background:#E7E7E7;filter:grayscale(1);color:#17212B}.p49-task.placed span,.p49-task.placed small{color:#17212B}
